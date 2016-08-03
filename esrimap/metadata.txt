@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Esri Basemaps
+qgisMinimumVersion=2.0
+description=Loads basemaps from the Esri restful API
+version=0.1
+author=J. Dorvinen
+email=jdorvi@gmail.com
+
+about=Have you ever wanted to use QGIS at work to make maps and figures but didn't because your office uses ArcMap and figures need to look uniform? This plugin loads basemaps from the Esri restful API so you can make you maps in QGIS with the same basemaps you'd find in ArcMap.
+
+tracker=https://github.com/jdorvi/EsriBasemaps/tree/master/bug_tracking
+repository=https://github.com/jdorvi/EsriBasemaps/tree/master/code
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=webservice
+
+homepage=https://github.com/jdorvi/EsriBasemaps
+category=Web
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
